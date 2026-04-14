@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/AnaMen\xFC.unity"
+    guid: 1e0d56fa8ce8a954fa1cfd82a6818d21
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1.unity
+    guid: 2b3100fb1951407448f93d6cfb805a24
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2.unity
+    guid: 6882d83494d7cdc40b2c2e3dd275d60f
+  - enabled: 1
+    path: Assets/Scenes/Video Player.unity
+    guid: c9cd2536231207c4d9344864f4a8643d
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: c2ee7746eafbf7543a2bb2a78480a94e
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: e2a264c1d774de342b6249e919f6b21e
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

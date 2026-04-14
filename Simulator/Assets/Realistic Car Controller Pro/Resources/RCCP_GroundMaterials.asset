@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394d741aff7bb704082bd589fff9f5c2, type: 3}
+  m_Name: RCCP_GroundMaterials
+  m_EditorClassIdentifier: 
+  frictions:
+  - groundMaterial: {fileID: 13400000, guid: 6d484cf27c4c65244885d1bbbaedd11b, type: 2}
+    forwardStiffness: 1.25
+    sidewaysStiffness: 1.25
+    slip: 0.3
+    damp: 1
+    volume: 1
+    groundParticles: {fileID: 1088255853978532, guid: e2c4a8323f8addc4696c51e0372cf7c7, type: 3}
+    groundSound: {fileID: 8300000, guid: cd9122599cbb06444921dbb3637ed9ac, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: d8c6b22730520f041a4b9293325bc9c1, type: 2}
+    forwardStiffness: 1
+    sidewaysStiffness: 1
+    slip: 0.2
+    damp: 3
+    volume: 1
+    groundParticles: {fileID: 177572, guid: ad17f02c6639aff40b7b4a7054029001, type: 3}
+    groundSound: {fileID: 8300000, guid: 7b144cd82aa04ff4caaa799c8e189162, type: 3}
+    skidmark: {fileID: 114148883271010190, guid: 18ccc07852c911b468617da85e0bd38c, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 1a8d20909fe171b46b3912a0a3a42377, type: 2}
+    forwardStiffness: 1
+    sidewaysStiffness: 1
+    slip: 0.1
+    damp: 10
+    volume: 1
+    groundParticles: {fileID: 100000, guid: e76d1dcb5a2485a45b606b1c5fe7f507, type: 3}
+    groundSound: {fileID: 8300000, guid: 59e038dfc28ad83419aff1c81f974134, type: 3}
+    skidmark: {fileID: 114685594780989890, guid: 0dcd6401701ec7242abdec166a299080, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 5dc6a52ce6e916540bb400cacac4d299, type: 2}
+    forwardStiffness: 0.8
+    sidewaysStiffness: 0.7
+    slip: 0.8
+    damp: 1
+    volume: 1
+    groundParticles: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
+    groundSound: {fileID: 0}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: e485b6dda00889a4b89cab9d98a647c5, type: 2}
+    forwardStiffness: 0.4
+    sidewaysStiffness: 0.3
+    slip: 0.4
+    damp: 1
+    volume: 1
+    groundParticles: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
+    groundSound: {fileID: 0}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: cb6afa67a997f8c458464eb96eb14746, type: 2}
+    forwardStiffness: 1.05
+    sidewaysStiffness: 1
+    slip: 0.28
+    damp: 0
+    volume: 1
+    groundParticles: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
+    groundSound: {fileID: 8300000, guid: 7b144cd82aa04ff4caaa799c8e189162, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 4b38ec8523b9a624e9c930439d774211, type: 2}
+    forwardStiffness: 0.9
+    sidewaysStiffness: 0.85
+    slip: 0.34
+    damp: 0.01
+    volume: 1
+    groundParticles: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
+    groundSound: {fileID: 8300000, guid: 7b144cd82aa04ff4caaa799c8e189162, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 52a4f2062bbbc4f4bb1b0002befcf4df, type: 2}
+    forwardStiffness: 0.75
+    sidewaysStiffness: 0.7
+    slip: 0.42
+    damp: 0.03
+    volume: 1
+    groundParticles: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
+    groundSound: {fileID: 8300000, guid: 7b144cd82aa04ff4caaa799c8e189162, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 0a0f6dc6fc366ab43ac888d6360238c6, type: 2}
+    forwardStiffness: 0.5
+    sidewaysStiffness: 0.45
+    slip: 0.25
+    damp: 0.05
+    volume: 1
+    groundParticles: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
+    groundSound: {fileID: 8300000, guid: 59e038dfc28ad83419aff1c81f974134, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 0c140f1aed0291044820ef0fc0b453b2, type: 2}
+    forwardStiffness: 0.15
+    sidewaysStiffness: 0.1
+    slip: 0.1
+    damp: 0.2
+    volume: 1
+    groundParticles: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
+    groundSound: {fileID: 8300000, guid: 59e038dfc28ad83419aff1c81f974134, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: ccc068242bfbeb74eb9891aa1f884bac, type: 2}
+    forwardStiffness: 0.95
+    sidewaysStiffness: 0.9
+    slip: 0.3
+    damp: 0.01
+    volume: 1
+    groundParticles: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
+    groundSound: {fileID: 8300000, guid: 7b144cd82aa04ff4caaa799c8e189162, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 9ffd1eb100d61d74d8103f0ee01e2311, type: 2}
+    forwardStiffness: 0.5
+    sidewaysStiffness: 0.45
+    slip: 0.2
+    damp: 0.08
+    volume: 1
+    groundParticles: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
+    groundSound: {fileID: 8300000, guid: 59e038dfc28ad83419aff1c81f974134, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  - groundMaterial: {fileID: 13400000, guid: 96b4047e42c395240bb098afb36573fd, type: 2}
+    forwardStiffness: 0.45
+    sidewaysStiffness: 0.35
+    slip: 0.18
+    damp: 0.15
+    volume: 1
+    groundParticles: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
+    groundSound: {fileID: 8300000, guid: 59e038dfc28ad83419aff1c81f974134, type: 3}
+    skidmark: {fileID: 114759648095143906, guid: b9d1066d1297801449fedbb9d9544460, type: 3}
+  terrainFrictions:
+  - groundMaterial: {fileID: 13400000, guid: f0171c38dd450e0438255469f9697200, type: 2}
+    splatmapIndexes:
+    - index: 2
+    - index: 1
+    - index: 1
+    - index: 0
+    - index: 2
+  - groundMaterial: {fileID: 13400000, guid: 7c96667de01f7d841906d0d538697d27, type: 2}
+    splatmapIndexes:
+    - index: 2
+    - index: 1
+    - index: 1
+    - index: 0
+    - index: 2

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7c93a1c3090690d4abe6379b81b99ba5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - crossObject: {fileID: 5560202807833326713, guid: ea210d5914a107b42b857b05817f37a3, type: 3}
+  - checkmarkObject: {fileID: 4031088089071420696, guid: a79f63405b4f7c84897a0335e58c06af, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
